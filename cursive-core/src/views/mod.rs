@@ -61,6 +61,8 @@ macro_rules! impl_enabled {
     };
 }
 
+mod arbitrary_select_view;
+mod arbitrary_select_view_v2;
 mod boxed_view;
 mod button;
 mod canvas;
@@ -100,6 +102,7 @@ mod themed_view;
 mod tracked_view;
 
 pub use self::{
+    arbitrary_select_view::{ArbitrarySelectView},
     boxed_view::BoxedView,
     button::Button,
     canvas::Canvas,
